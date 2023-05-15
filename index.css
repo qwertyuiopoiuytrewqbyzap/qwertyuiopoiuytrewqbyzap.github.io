@@ -1,5 +1,5 @@
 body{
-    background-image: url("media/background.jpg");
+    background-image: url("media/back.avif");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -17,20 +17,9 @@ footer {
     background: #161616;
 }
 
-/*Importantes...*/
-.left{
-    text-align: left;
-}
-.right{
-    text-align: right;
-}
-.center{
-    text-align: center;
-}
-
 /*Secciones*/
 .header{
-    height: 100px;
+    height: 80px;
     width: 100%;
     padding: 0 0;
     background: #161616;
@@ -42,11 +31,11 @@ nav{
     justify-content: space-between;
 }
 .logo{
-    width: 80px;
+    width: 60px;
     padding: 10px 10px 10px 10px;
 }
 .nav-links{
-    padding: 25px 10px;
+    padding: 10px 10px;
 }
 .nav-links li{
     display: inline-block;
@@ -66,11 +55,15 @@ nav{
     position: absolute;
     bottom: 0;
     left: 0;
-    transition: width 0.25s;
+    transition: width 0.5s;
 }
 .nav-links li a:hover:after{
     width: 100%;
 }
+
+
+
+
 
 .footer{
     background: #161616;
@@ -121,6 +114,10 @@ nav{
     margin-top: 5px;
 }
 
+
+
+
+
 .container{
     text-align: left;
     height: auto;
@@ -151,14 +148,14 @@ nav{
     grid-gap: 30px;
 }
 .service{
-    background: #202020;
+    background: #101010;
     text-align: center;
     border-radius: 15px;
-    border: #808080 2px solid;
+    border: #252525 2px solid;
     transition: transform 0.5s, background 0.5s;
 }
 .service:hover{
-    background-color: #303ef7;
+    background-color: #252525;
     transform: scale(1.1);
 }
 .service:hover i{
@@ -167,7 +164,7 @@ nav{
 .service i{
     margin: 15px 0 0 0;
     font-size: 30px;
-    color: #303ef7;
+    color: #707070;
     transition: color 0.5s;
 }
 .service h2{
